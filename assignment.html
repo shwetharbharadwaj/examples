@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <center><h1>EMPLOYEE DETAILS</h1></center>
+    <!-- Standard Meta-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!-- Site Properties -->
+  <title>assignment</title>
+    <style>
+        .item{
+       border:none;
+        }
+            body{
+               background-image: url(image.jpg); 
+            }   
+        .gest{
+           color: black;
+            border-color:azure;
+        }
+       
+    
+    </style>
+<body>
+   <table class="gest" align="center" cellpadding = "10" border="2px">
+    <form method="post" >
+    <tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+</td>
+</tr>
+  <tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+</td>
+</tr>              
+               
+    <tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="Male" />
+Female <input type="radio" name="Gender" value="Female" />
+</td>
+</tr>           
+  <tr>
+<td>MARITAL STATUS</td>
+<td>
+Married<input type="radio" name="Gender" value="marr" />
+Unmarried<input type="radio" name="Gender" value="unmarri" />
+</td>
+</tr>           
+ <tr>
+<td>SPOUSE NAME</td>
+<td><input type="text" name="spouse" maxlength="30"/>
+</td>
+</tr>                   
+  <tr>
+<td>OTHER DETAILS</td>
+<td><input type="text" name="details" maxlength="30"/>
+</td>
+</tr>  
+<tr>
+<td class="item">
+    <input type="checkbox"style="border: 1px thin"> I accept <a href="#">Terms & conditions.</a>
+    </td>
+ 
+        </tr>
+<td><input type="button" value="submit" onclick="parent.open('https://www.google.com/')">
+</td>
+
+       <td> <input type="button" value="reset">
+        </td>
+        </form>  
+    </table>
+    </body>
+    </head>
+</html>
